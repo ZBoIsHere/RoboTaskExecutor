@@ -1,0 +1,2 @@
+SendFailed = 'failed'
+SendSuccess = 'success'
