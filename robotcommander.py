@@ -74,7 +74,7 @@ class RobotCommander:
 
     def sendSimpleCommand(self, command_name, verbose=True):
         if verbose:
-            rospy.logerr(command_name)
+            print(command_name)
         self.sendSimple(self._command_code[command_name])
 
     def stand_down_up(self):
